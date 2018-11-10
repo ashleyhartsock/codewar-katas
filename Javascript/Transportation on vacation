@@ -1,4 +1,4 @@
-## Challenge:
+Challenge:
 After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
 
 You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
@@ -8,7 +8,7 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 Write a code that gives out the total amount for different days(d).
 
 
-## My Solution:
+My Solution:
 function rentalCarCost(d) {
  var total = d * 40;
  if (d > 2 && d < 7) {
